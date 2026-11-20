@@ -16,6 +16,10 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-app.ts';
 
+// SUNSET SLEEVE — diagonal duotone cover maker (berkahmuse-2 entry for gta6-cover-art-01).
+const ENTRY_TITLE = 'Sunset Sleeve — Diagonal Duotone Cover Maker';
+console.log(`[sunset-sleeve] handing in: ${ENTRY_TITLE}`);
+
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
